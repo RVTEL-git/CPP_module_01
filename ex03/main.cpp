@@ -6,7 +6,7 @@
 /*   By: barmarti <barmarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/03 16:23:14 by barmarti          #+#    #+#             */
-/*   Updated: 2025/12/03 18:59:17 by barmarti         ###   ########.fr       */
+/*   Updated: 2025/12/04 09:12:23 by barmarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ int main()
 		HumanB jim("Jim");
 		jim.attack();
 		jim.setWeapon(club);
+		jim.attack();
 		club.setType("some other type of club");
 		jim.attack();
 	}
