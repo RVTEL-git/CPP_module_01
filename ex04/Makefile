@@ -6,12 +6,12 @@
 #    By: barmarti <barmarti@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/03 19:00:53 by barmarti          #+#    #+#              #
-#    Updated: 2025/12/03 19:49:42 by barmarti         ###   ########.fr        #
+#    Updated: 2025/12/04 07:57:00 by barmarti         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CXX = c++
-CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -g3
+CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
 NAME = Sed
 

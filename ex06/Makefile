@@ -6,12 +6,12 @@
 #    By: barmarti <barmarti@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/04 07:28:59 by barmarti          #+#    #+#              #
-#    Updated: 2025/12/04 07:29:22 by barmarti         ###   ########.fr        #
+#    Updated: 2025/12/04 07:56:38 by barmarti         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CXX = c++
-CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -g3
+CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
 NAME = harlFilter
 

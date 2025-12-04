@@ -6,12 +6,12 @@
 #    By: barmarti <barmarti@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/04 06:14:28 by barmarti          #+#    #+#              #
-#    Updated: 2025/12/04 07:16:40 by barmarti         ###   ########.fr        #
+#    Updated: 2025/12/04 07:56:42 by barmarti         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CXX = c++
-CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -g3
+CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
 NAME = Harl_2.0
 
