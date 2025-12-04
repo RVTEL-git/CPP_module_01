@@ -6,7 +6,7 @@
 /*   By: barmarti <barmarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/03 12:13:02 by barmarti          #+#    #+#             */
-/*   Updated: 2025/12/03 19:28:34 by barmarti         ###   ########.fr       */
+/*   Updated: 2025/12/04 09:43:05 by barmarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,21 +16,25 @@
 
 int	main(int ac, char *av[])
 {
-	std::string			strToN = av[1];
-	std::string			name = av[2];
-	int					N = 0;
-	std::stringstream	getN;
-	Zombie				*horde;
-
 	if (ac == 3)
 	{
+		std::string			strToN = av[1];
+		std::string			name = av[2];
+		int					N = 0;
+		std::stringstream	getN;
+		Zombie				*horde;
+
 		getN << strToN;
 		getN >> N;
+		if (N <= 0 || N >= 214748364)
+		{
+			std::cout << "Error\nN Wrong value" << std::endl;
+			return (1);
+		}
 		horde = zombieHorde(N, name);
 		if (!horde)
 		{
-			std::cout << "Error" << std::endl;
-			std::cout << "Memory allocation failed" << std::endl;
+			std::cout << "Error\nMemory allocation failed" << std::endl;
 			return (1);
 		}
 		for (int i = 0 ; i < N ; i++)
@@ -38,7 +42,6 @@ int	main(int ac, char *av[])
 		delete [] horde;
 		return (0);
 	}
-	std::cerr << "Error" << std::endl;
-	std::cerr << "Check args" << std::endl;
+	std::cerr << "Error\nCheck args" << std::endl;
 	return (1);
 }

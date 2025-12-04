@@ -6,14 +6,13 @@
 /*   By: barmarti <barmarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/03 16:23:14 by barmarti          #+#    #+#             */
-/*   Updated: 2025/12/04 09:12:23 by barmarti         ###   ########.fr       */
+/*   Updated: 2025/12/04 09:13:17 by barmarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanA.hpp"
 #include "HumanB.hpp"
 #include "Weapon.hpp"
-
 
 int main()
 {
