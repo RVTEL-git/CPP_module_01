@@ -6,7 +6,7 @@
 /*   By: barmarti <barmarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/04 06:14:53 by barmarti          #+#    #+#             */
-/*   Updated: 2025/12/04 07:44:00 by barmarti         ###   ########.fr       */
+/*   Updated: 2025/12/04 07:56:03 by barmarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,4 +24,5 @@ int	main(int ac, char *av[])
 		return (0);
 	}
 	std::cerr << "Error\nCheck args" << std::endl;
+	return (1);
 }
